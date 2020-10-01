@@ -1,0 +1,9 @@
+see /var/mail there is something there, there is an email with a cron job
+
+if you go to the path shown in the cronjob you find an script, that executes each x time
+all files in the path /opt/openarenaserver, if you put a file there that execute getflag and save it on another file you only need to
+wait for the openarenaserver take that file and execute it, once the file has dissapear from there, its done
+
+for example:
+
+getflag > /tmp/password

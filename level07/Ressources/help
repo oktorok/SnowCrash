@@ -1,0 +1,1 @@
+doing cat at the executable level07 we can see LOGNAME and /bin/echo %s trying to change LOGNAME by whatever we can see that, in fact, its echoing LOGNAME hence a simple exploit as \$\(getflag\) is enought

@@ -1,0 +1,7 @@
+im not sure even if this is the correct solution, but it works.
+
+Anyway i didnt found anithing anyware then i gdb the getflag binary and disassemble it, seeing the asm orders i saw
+that the program uses getuid hence i supposed all the rules JE (the rule JE on asm means that if is equal jumps somewhere and
+if not jumps to another place) are checking the uid of the user. then i began to check them with gdb and "ju *<memmory direction>" hence i counted 14 je i tried the 14th and, yep, it worked.
+
+i dont see any reason for dont do this in all the other levels :/ but anyway c'est fini

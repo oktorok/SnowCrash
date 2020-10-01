@@ -1,0 +1,6 @@
+There is a pcap file in ~ folder, readen with tcpdump (tcpdump -qns 0 -A -r file.pcap) or wireshark you can see the packets
+obtainin the following:
+
+ft_wandr DEL DEL DEL NDRel DEL L0L
+
+ft_waNDReL0L

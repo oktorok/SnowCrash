@@ -1,0 +1,3 @@
+the binary read files but not the token one, very probably because its named token, if you try to create a symbol link of token with another name, efectivelly it works
+
+ln -s ./token /tmp/link

@@ -1,0 +1,1 @@
+this one is pretty easy, the binary asks by an user with uid 4242 hence, you can download from the virtual maxhine the binary, create an user with uid=4242 with useradd -u=4242 dummy change to that user and execute the binary

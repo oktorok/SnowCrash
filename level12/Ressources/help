@@ -1,0 +1,8 @@
+you have another perl script that is a server
+
+the exploit is obvious as it is executing the parameter x. The problem is that this parameter
+is being transformed with 2 regex one turns everything upper case and the another one remove everything after first space, meaning that
+we cant use getflag > /tmp/password
+
+Buuuuut we can create an script named GETFLAG that contains getflag > /tmp/password, and
+send to the server localhost:4646?x='$(/*/getflag)&y="" this will execute /*/GETFLAG and wola

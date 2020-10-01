@@ -1,0 +1,5 @@
+the password hashed is on /etc/passwd file, only cat it
+
+after, i used john the reaper for obtain the password
+sudo apt-get install john -y
+pacman -S john

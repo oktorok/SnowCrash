@@ -1,0 +1,2 @@
+on php file we can see the flag e on the regex and analizing the regex we can exploit it.
+Because will match anything like [x blabla] then if we introduce there {${exec{getflag}} it will execute it, we only need to write it in a file on tmp, and execute level06 with that file

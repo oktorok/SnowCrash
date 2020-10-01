@@ -1,0 +1,6 @@
+token is a cyph text and with a bit of tests you can see that the executable actually sum the position of the character to the character meaning that 12345 becomes 13579 and go on
+
+with a simple python script you can decode the token
+
+PD for some reason on my laptop some caracters had 0xdc00 summed ¯\(°_o)/¯ and for that reason i have rested that number to those values but i think in a normal computer should not be 
+necessary

@@ -1,0 +1,6 @@
+you have a perl script, and you can see an address localhost:4747, the script
+is running on background (you can check that it is on /var/www also)
+
+Hence watching the script you can notice that is echoing x param
+
+hence you can curl localhost:4747?x='$(getflag)' for let the program execute get flag for you :3

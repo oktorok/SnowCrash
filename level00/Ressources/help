@@ -1,0 +1,4 @@
+there is a file in /usr/sbin named john and owned by flag00
+if you do cat you obtain the password encrypted with cesar code
+(how do i know that? pfff intuition, doesnt looks like a hash and there are not so much ciphr algorithms)
+key = 11 (you test with all numbers xDDD)

