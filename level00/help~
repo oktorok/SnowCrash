@@ -1,3 +1,0 @@
-there is a file in /usr/sbin named john and owned by flag00
-if you do cat you obtain the password encrypted with cesar code
-key = 11
